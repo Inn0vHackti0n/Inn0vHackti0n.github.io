@@ -3,7 +3,6 @@ title: Paper Theme
 description: > # this means to ignore newlines until "baseurl:"
   A gentle theme for Jekyll utilising material design.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
 
 # Build settings
 markdown: kramdown
