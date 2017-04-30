@@ -1,0 +1,37 @@
+# Site settings
+title: Paper Theme
+description: > # this means to ignore newlines until "baseurl:"
+  A gentle theme for Jekyll utilising material design.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site you most probably don't need to set it
+
+# Build settings
+markdown: kramdown
+paginate: 5 # pagination based on number of posts
+paginate_path: "page/:num"
+highlighter: pygments
+gems: [jekyll-paginate, jekyll-coffeescript]
+
+# comments
+disqus: # add disqus shortname here
+
+# author info
+# add your appropriate info here
+author: "Inn0vHackti0n" # your name
+bio: "Epitech Security Team Blog"   # your bio
+email: "Inn0vHackti0n@gmail.com"
+email_md5: "6630a0fb801e3f2a31e755bec55b13d7"# md5 hash of your email
+twitter_username: "Inn0vHackti0n"
+github_username: "Inn0vHackti0n"
+
+# Theming options
+# These settings are mandatory.
+# drawer theming
+drawer:
+  text_color:       'grey-600'
+  header_color:     'blue-500'
+  navigation_color: 'grey-200'
+# footer theming
+footer:
+  text_color: 'blue-grey-200'
+  color: 'blue-grey-600'
