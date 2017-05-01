@@ -1,14 +1,14 @@
 # Site settings
-title: Paper Theme
+title: "Inn0vHackti0n"
 description: > # this means to ignore newlines until "baseurl:"
-  A gentle theme for Jekyll utilising material design.
+  Blog about Epitech Security Team 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
 paginate: 5 # pagination based on number of posts
 paginate_path: "page/:num"
-highlighter: pygments
+highlighter: rouge 
 gems: [jekyll-paginate, jekyll-coffeescript]
 
 # comments
