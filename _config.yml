@@ -3,7 +3,7 @@
 # Base URL
 
 # Site live URL
-url: https://hamon-e.github.io
+url: https://inn0vhackti0n.github.io
 
 # Localhost 
 # url: http://127.0.0.1:4000  
@@ -12,11 +12,11 @@ url: https://hamon-e.github.io
 harmony:
   name: Inn0vHackti0n
   # Little description about your site
-  description: Inn0vHackti0n Blog.
+  description: Epitech Security Team Blog
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
-  meta_description: Inn0vHackti0n Blog.
+  meta_description: Epitech Security Team Blog.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Inn0vHackti0n
