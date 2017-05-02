@@ -1,14 +1,16 @@
 ---
 layout: post
 title: "[UIUCTF2k17] Reverse 200 - uiuctfsck"
+description: Little brainfunck interpreter
 categories: writeup
 ---
-States:
-```
+
 This service looks like it might have some vulnerabilities. Think you can get the flag?
 
 nc challenge.uiuc.tf 11338
-```
+
+
+## Challenge
 
 Here is the interpreter.py script behind the TCP service: 
 
@@ -162,9 +164,11 @@ if(__name__ == '__main__'):
         interpret_program(command)
 ```
 
+## Exploit
+
 It's a simple brainfuck interpreter.
 
-Because of those instructions we can think that this script has no string format vulnerabilties.
+Because of those instructions we can think that this script has no format string vulnerabilties.
 
 ```python
 if("machine" in format_string):
