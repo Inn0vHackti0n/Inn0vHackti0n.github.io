@@ -1,36 +1,60 @@
-# Site settings
-title: Paper Theme
-description: > # this means to ignore newlines until "baseurl:"
-  A gentle theme for Jekyll utilising material design.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+# Harmony Jekyll theme general configurations 
 
-# Build settings
-markdown: kramdown
-paginate: 5 # pagination based on number of posts
-paginate_path: "page/:num"
-highlighter: pygments
-gems: [jekyll-paginate, jekyll-coffeescript]
+# Base URL
 
-# comments
-disqus: "Inn0vHackti0n"# add disqus shortname here
+# Site live URL
+url: https://hamon-e.github.io
 
-# author info
-# add your appropriate info here
-author: "Inn0vHackti0n" # your name
-bio: "Epitech Security Team Blog"   # your bio
-email: "Inn0vHackti0n@gmail.com"
-email_md5: "8e8d72cd85759cf726e5c1ee2f1fd1bf" # md5 hash of your email
-twitter_username: "Inn0vHackti0n"
-github_username: "Inn0vHackti0n"
+# Localhost 
+# url: http://127.0.0.1:4000  
 
-# Theming options
-# These settings are mandatory.
-# drawer theming
-drawer:
-  text_color:       'grey-600'
-  header_color:     'blue-500'
-  navigation_color: 'grey-200'
-# footer theming
-footer:
-  text_color: 'blue-grey-200'
-  color: 'blue-grey-600'
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: Inn0vHackti0n
+  # Little description about your site
+  description: Inn0vHackti0n Blog.
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and 
+  # in your feed.xml site description.
+  meta_description: Inn0vHackti0n Blog.
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Inn0vHackti0n
+    email: inn0vhackti0n@gmail.com
+    url: https://inn0vhackti0n.github.io
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Profile links, leave blank to ignore
+  social: 
+    github: Inn0vHackti0n
+    twitter: Inn0vHackti0n
+    facebook: 
+    gplus: 
+    dribble: 
+    pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: false
+
+# Conversion / Build settings 
+markdown:    kramdown
+# This is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: pygments 
+
+# Permalinks
+permalink:        pretty
+
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
